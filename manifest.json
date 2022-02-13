@@ -1,0 +1,27 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "Smart Tab",
+  "short_name": "SmartTab",
+  
+  "description": "Compleatly easy web active tab interface that make easy your life.",
+  
+  "version": "3.0.2",
+  
+  "incognito": "split",
+  
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  
+  "manifest_version": 2,
+
+  "permissions": [
+   "activeTab"
+   ],
+
+  "icons": {
+    "128": "Google.png",
+    "16": "favicon-16x16.png"
+    }
+}
